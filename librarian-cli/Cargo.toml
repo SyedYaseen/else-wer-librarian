@@ -1,0 +1,11 @@
+[package]
+name = "librarian-cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = "1.47.1"
+librarian-core = { path = "../librarian-core" }
+ratatui = "0.29.0"
+crossterm = "0.28.1"
+color-eyre = "0.6.5"

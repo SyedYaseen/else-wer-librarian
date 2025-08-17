@@ -1,0 +1,10 @@
+[package]
+name = "librarian-core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+reqwest = "0.12.23"
+serde = "1.0.219"
+tokio = "1.47.1"
+anyhow = "1.0.99"

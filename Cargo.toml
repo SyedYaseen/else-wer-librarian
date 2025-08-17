@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "librarian-core",
+    "librarian-cli",
+    "librarian-server"
+]
