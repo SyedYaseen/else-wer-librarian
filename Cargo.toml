@@ -3,4 +3,4 @@ members = [
     "librarian-core",
     "librarian-cli",
     "librarian-server"
-]
+, "librarian-openlibrary"]

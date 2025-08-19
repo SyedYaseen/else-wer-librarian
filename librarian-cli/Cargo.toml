@@ -4,8 +4,21 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-tokio = "1.47.1"
+
 librarian-core = { path = "../librarian-core" }
 ratatui = "0.29.0"
 crossterm = "0.28.1"
 color-eyre = "0.6.5"
+walkdir = "2.5.0"
+regex = "1.11.1"
+lofty = "0.22.4"
+futures = "0.3.31"
+anyhow = "1.0.99"
+reqwest = "0.12.23"
+serde = "1.0.219"
+serde_json = "1.0.142"
+tokio = { version = "1.47.1", features = ["full"] }
+tokio-util = {version = "0.7.15", features = ["io"]}
+sqlx = { version = "0.8", features = ["runtime-tokio-rustls", "any", "sqlite", "chrono"] }
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt", "json", "time"] }
+tracing-appender = "0.2.3"
